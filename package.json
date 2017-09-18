@@ -1,0 +1,18 @@
+{
+  "name": "elm-headless-app",
+  "version": "0.1.0",
+  "description": "Elm Headless App Starter",
+  "main": "index.js",
+  "author": "misoton665",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "webpack",
+    "project-init": "npm uninstall --save-dev elm && npm i --save-dev elm && npm i && elm package install"
+  },
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-webpack-loader": "^4.3.1",
+    "webpack": "^3.6.0"
+  }
+}
